@@ -1,4 +1,4 @@
-#D3 Chart Test App
+# D3 Chart Test App
 
 ![Currency Test App](src/img/D3Chart-test-app.png)
 
