@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/D3Chart-test-app/static/css/main.60772fa8.chunk.css",
+    "main.js": "/D3Chart-test-app/static/js/main.6a5d13d5.chunk.js",
+    "main.js.map": "/D3Chart-test-app/static/js/main.6a5d13d5.chunk.js.map",
+    "runtime-main.js": "/D3Chart-test-app/static/js/runtime-main.13f2d07b.js",
+    "runtime-main.js.map": "/D3Chart-test-app/static/js/runtime-main.13f2d07b.js.map",
+    "static/css/2.d22f252f.chunk.css": "/D3Chart-test-app/static/css/2.d22f252f.chunk.css",
+    "static/js/2.7a86d8f3.chunk.js": "/D3Chart-test-app/static/js/2.7a86d8f3.chunk.js",
+    "static/js/2.7a86d8f3.chunk.js.map": "/D3Chart-test-app/static/js/2.7a86d8f3.chunk.js.map",
+    "index.html": "/D3Chart-test-app/index.html",
+    "static/css/2.d22f252f.chunk.css.map": "/D3Chart-test-app/static/css/2.d22f252f.chunk.css.map",
+    "static/css/main.60772fa8.chunk.css.map": "/D3Chart-test-app/static/css/main.60772fa8.chunk.css.map",
+    "static/js/2.7a86d8f3.chunk.js.LICENSE.txt": "/D3Chart-test-app/static/js/2.7a86d8f3.chunk.js.LICENSE.txt",
+    "static/media/button-loader.44dbef48.svg": "/D3Chart-test-app/static/media/button-loader.44dbef48.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13f2d07b.js",
+    "static/css/2.d22f252f.chunk.css",
+    "static/js/2.7a86d8f3.chunk.js",
+    "static/css/main.60772fa8.chunk.css",
+    "static/js/main.6a5d13d5.chunk.js"
+  ]
+}
