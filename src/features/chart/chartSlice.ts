@@ -58,7 +58,7 @@ export const { setData, setNewSegment, setFetchingSend } = chartSlice.actions;
 export const getChartData = (): AppThunk => async dispatch => {
   try {
     const response = await ChartAPI.getChartData()
-    await dispatch(setData(response))
+    dispatch(setData(response))
   } catch (error) {
     console.log(error)
   }
@@ -66,13 +66,13 @@ export const getChartData = (): AppThunk => async dispatch => {
 
 export const setChartData = (data: IChart.Segment): AppThunk => async dispatch => {
   try {
-    await dispatch(setFetchingSend(true))
+    dispatch(setFetchingSend(true))
     await ChartAPI.setChartData(data)
-    await dispatch(setNewSegment(data))
-    await dispatch(setFetchingSend(false))
+    dispatch(setNewSegment(data))
+    dispatch(setFetchingSend(false))
   } catch (error) {
     console.log(error)
-    await dispatch(setFetchingSend(false))
+    dispatch(setFetchingSend(false))
   }
 }
 
